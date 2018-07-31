@@ -1,0 +1,41 @@
+/* Header background color */
+#header {
+  background: #333f4d;
+}
+/* Page background (including tabs) */
+html, body,
+#nav li a.sel {
+  background: #E8DAEF;
+}
+
+/* H1 tags */
+h1 {
+  color: #34495E;
+  font-family: 'Quicksand', sans-serif;
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+</style>
+}
+ {
+  color: #34495E;
+  font-family: 'Quicksand', sans-serif;
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+</style>
+}
+
+/* Standard button color */
+.btn.submit {
+  background: #da5a47;
+}
+/* Hover/active button color */
+.btn.submit:not(.disabled):hover,  .btn.submit:not(.disabled).hover,
+.btn.submit:not(.disabled):active, .btn.submit:not(.disabled).active {
+  background: #bf503f;
+}
+
+/* Hide "Updates Available" icon */
+/* (to prevent clients from auto-updating in Production environment) */
+#header-actions .updates {
+  display: none;
+}
